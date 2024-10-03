@@ -45,7 +45,7 @@ const App = () => {
   }, [output]);
 
   return (
-    <div className="min-h-screen bg-black text-green-400 p-4 font-bold">
+    <div className="min-h-screen bg-black text-green-400 p-4 font-mono">
       <header className="flex justify-center mb-8">
         <h1 className="text-3xl font-bold mb-2 text-lime-400">Scelo Khoza</h1>
       </header>
