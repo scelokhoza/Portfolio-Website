@@ -19,16 +19,19 @@ const App = () => {
         setOutput([...output, '> ' + cmd, 'Available commands: about, skills, projects, contact']);
         break;
       case 'about':
-        setOutput([...output, '> ' + cmd, 'I am a cybersecurity enthusiast with a passion for ethical hacking. I hold certificates in network security engineering and software development, along with partial studies in computer science.']);
+        setOutput([...output, '> ' + cmd, 'I am a  Full Stack Software Developer with a strong focus on backend development and self-taught expertise in network security and penetration testing. I hold certificates in network security engineering and software development, along with partial studies in computer science.']);
+        break;
+      case 'education':
+        setOutput([...output, '> ' + cmd, 'Skills: Network Security, Software Development, Python, JavaScript(HTML, CSS), Java, Shell-Scripting, React, Flask, Angular, MYQSL']);
         break;
       case 'skills':
-        setOutput([...output, '> ' + cmd, 'Skills: Network Security, Ethical Hacking, Software Development, Python, JavaScript, React']);
+        setOutput([...output, '> ' + cmd, 'Skills: Network Security, Software Development, Python, JavaScript(HTML, CSS), Java, Shell-Scripting, React, Flask, Angular, MYQSL']);
         break;
       case 'projects':
-        setOutput([...output, '> ' + cmd, 'Projects: 1. Vulnerability Scanner, 2. Secure Chat Application, 3. Network Intrusion Detection System']);
+        setOutput([...output, '> ' + cmd, 'Projects: 1. VPN [https://github.com/scelokhoza/Digital-Shield-VPN], 2. Digital Safe [https://github.com/scelokhoza/Digital-Safe], 3. Basic Encryption & Decryption [https://github.com/scelokhoza/Encryption_Decryption]']);
         break;
       case 'contact':
-        setOutput([...output, '> ' + cmd, 'Email: your.email@example.com | LinkedIn: linkedin.com/in/yourprofile | GitHub: github.com/yourusername']);
+        setOutput([...output, '> ' + cmd, 'Phone: 068 516 9822 | Email: sceloprince749@gmail.com | LinkedIn: www.linkedin.com/in/scelo-khoza-b56662287 | GitHub: https://github.com/scelokhoza/']);
         break;
       default:
         setOutput([...output, '> ' + cmd, 'Command not recognized. Type "help" for available commands.']);
@@ -43,8 +46,8 @@ const App = () => {
   return (
     <div className="min-h-screen bg-black text-green-400 p-4 font-mono">
       <header className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Your Name</h1>
-        <p className="text-xl">Cybersecurity Specialist | Ethical Hacker</p>
+        <h1 className="text-3xl font-bold mb-2">Scelo Khoza</h1>
+        <p className="text-xl">Full Stack Software Developer | Network Security Engineer | AI Developer | Ethical Hacking</p>
       </header>
       <div className="border border-green-400 p-4 rounded">
         <div id="terminal-output" className="h-64 overflow-y-auto mb-4">
