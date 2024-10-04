@@ -37,4 +37,95 @@
   }
 }
 
+.portfolio-container {
+  min-height: 100vh;
+  background-color: black;
+  color: #4ade80;
+  padding: 1rem;
+  font-family: monospace;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.portfolio-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #a3e635;
+}
+
+.portfolio-subtitle {
+  font-size: 1.25rem;
+  color: #a3e635;
+}
+
+.terminal-container {
+  border: 1px solid #4ade80;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.terminal-output {
+  height: 29rem;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.terminal-form {
+  display: flex;
+  align-items: center;
+}
+
+.terminal-icon {
+  margin-right: 0.5rem;
+}
+
+.prompt-symbol {
+  margin-right: 0.5rem;
+}
+
+.terminal-input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+}
+
+.welcome-message {
+  font-weight: bold;
+}
+
+.command-prompt {
+  color: #a3e635;
+  font-weight: bold;
+}
+
+.command-help {
+  color: #34d399;
+  font-weight: bold;
+}
+
+.link {
+  color: #60a5fa;
+}
+
+.education-item, .project-item, .contact-item {
+  color: #4ade80;
+}
+
+.resume-message {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #f87171;
+  font-weight: bold;
+}
+
 
