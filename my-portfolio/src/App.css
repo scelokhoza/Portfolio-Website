@@ -52,14 +52,14 @@
 }
 
 .portfolio-title {
-  font-size: 1.875rem;
+  font-size: 2.875rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #a3e635;
 }
 
 .portfolio-subtitle {
-  font-size: 1.25rem;
+  font-size: 2.15rem;
   color: #a3e635;
 }
 
@@ -73,6 +73,7 @@
   height: 29rem;
   overflow-y: auto;
   margin-bottom: 1rem;
+  font-size: 1.0rem;
 }
 
 .terminal-form {
