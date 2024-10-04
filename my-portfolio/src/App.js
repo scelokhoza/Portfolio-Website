@@ -13,11 +13,15 @@ const App = () => {
     setCommand('');
   };
 
+  const handleOpenPDF = () => {
+    window.open('/scelo_resume.pdf', '_blank');
+  };
+
   const processCommand = (cmd) => {
     const newCommand = `<span class="text-lime-500 font-bold">scelo@kali-linux:~$ ${cmd}</span>`
     switch(cmd.toLowerCase()) {
       case 'help':
-        setOutput([...output, newCommand, 'Available commands: <span class="text-red-400 font-bold">about, <span class="text-blue-400 font-bold">skills, <span class="text-orange-400 font-bold">projects, <span class="text-lime-400 font-bold">contact, <span class="text-purple-400 font-bold">education']);
+        setOutput([...output, newCommand, 'Available commands: <span class="text-red-400 font-bold">about, <span class="text-blue-400 font-bold">skills, <span class="text-orange-400 font-bold">projects, <span class="text-lime-400 font-bold">contact, <span class="text-purple-400 font-bold">education, <span class="text-yellow-400 font-bold">resume']);
         break;
       case 'about':
         setOutput([...output, newCommand, 'I am a  Full Stack Software Developer with a strong focus on backend development and self-taught expertise in network security and penetration testing. I hold certificates in network security engineering and software development, along with partial studies in computer science.']);
@@ -33,6 +37,10 @@ const App = () => {
         break;
       case 'contact':
         setOutput([...output, newCommand, 'Phone: <span class="text-blue-400 font-bold">068 516 9822 | <span class="text-green-400 font-bold">Email: <span class="text-blue-400 font-bold">sceloprince749@gmail.com | <span class="text-green-400 font-bold">LinkedIn: <span class="text-blue-400 font-bold">www.linkedin.com/in/scelo-khoza-b56662287 | <span class="text-green-400 font-bold">GitHub: <span class="text-blue-400 font-bold">https://github.com/scelokhoza/']);
+        break;
+      case 'resume':
+        setOutput([...output, newCommand, '<span class="text-green-400 font-bold">My resume is opened in your browser!!']);
+        handleOpenPDF();
         break;
       default:
         setOutput([...output, newCommand, '<span class="text-red-400 font-bold">Command not recognized. Type <span class="text-green-400 font-bold">"help" <span class="text-red-400 font-bold">for available commands.']);
