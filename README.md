@@ -1,6 +1,7 @@
 # Portfolio-Website
 
-![Screenshot from 2024-10-03 18-53-31](https://github.com/user-attachments/assets/64ab9388-2041-4ab5-84c1-1fdcd5210686)
+![Screenshot from 2024-10-04 14-52-04](https://github.com/user-attachments/assets/12facc5f-50c6-4990-9d6a-02b3c7c86427)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
