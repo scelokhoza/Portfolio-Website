@@ -58,7 +58,7 @@ const App = () => {
       <header className="portfolio-header">
         <h1 className="portfolio-title">Scelo Khoza</h1>
       </header>
-      <p className="portfolio-subtitle">Full Stack Software Developer | Network Security Engineer | AI Developer | Ethical Hacker</p>
+      <p className="portfolio-subtitle">Full Stack Software Developer | Network Security Engineer | AI Developer | Cloud Developer</p>
       <div className="terminal-container">
         <div id="terminal-output" className="terminal-output">
         {output.map((line, index) => (
